@@ -2,32 +2,45 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="98.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wubweb beta</title>
+    <link rel="icon" type="image" href="favicon.png">
 </head>
 <body>
-    <h1>register for wubweb beta access</h1>
-    <form action="">
-        <div class="headingsContainer">
-            <h3>Register</h3>
-            <p>Put your email so you can recieve a code for beta access</p>
-        </div>
+<main>
+    <form action=""></form>
+        <div class="window" style="width: 300px;">
+            <div class="title-bar">
+              <div class="title-bar-text">Register for wubweb Beta access</div>
+              <div class="title-bar-controls">
+                <button aria-label="Close"></button>
+              </div>
+            </div>
+            <div class="window-body">
+                <h3>Register</h3>
+                <p>Put your email so you can recieve a code for beta access</p>
+            </div>
+    
+            <!-- Main container for all inputs -->
+            <div class="mainContainer">
+                            <!-- Username -->
+                            <label for="username">Your E-Mail</label>
+                            <!-- Make sure to put "required" for both the input fields -->
+                            <input type="text" placeholder="Enter E-Mail address" name="email" required>
+                
+                            <br><br>
+                            <!-- Submit button -->
+            <button type="submit">Login</button>
+                                        <br><br>
 
-        <!-- Main container for all inputs -->
-        <div class="mainContainer">
-                        <!-- Username -->
-                        <label for="username">Your E-Mail</label>
-                        <!-- Make sure to put "required" for both the input fields -->
-                        <input type="text" placeholder="Enter E-Mail address" name="email" required>
-            
-                        <br><br>
-            
-           
-        </div>
-
-        </div>
-
+                
+            </div>
+          </div>
     </form>
+    
+</main>
+
 </body>
 </html>
